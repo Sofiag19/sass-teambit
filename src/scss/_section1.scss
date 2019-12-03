@@ -1,0 +1,47 @@
+#section1 {
+  width: 100%;
+  margin: 90px 0;
+  @include flex-beetween;
+  #intro {
+    width: 50%;
+    padding-right: 6%;
+    h1 {
+      font-size: 50px;
+      font-weight: 600;
+      line-height: 70px;
+    }
+    p {
+      margin: 25px 0;
+      font-size: 22px;
+      line-height: 33px;
+      font-family: $secondary-font-family;
+    }
+    div {
+      a {
+        @include btn-signup;
+        font-family: $secondary-font-family;
+        font-size: 14px;
+        text-decoration: none;
+        img {
+          height: 15px;
+          width: 15px;
+        }
+      }
+      span {
+        color: #bdb5af;
+        margin: 0 10px;
+      }
+    }
+    #or-use {
+      display: inline-block;
+      text-decoration: none;
+      margin: 20px 0;
+    }
+  }
+  #img_intro {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+}

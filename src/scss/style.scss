@@ -1,7 +1,9 @@
 // inclusione
 @import 'variables';
 @import 'common';
-@import 'header';
+@import 'nav';
+@import 'section1';
+@import 'section2';
 
 // regole generali
 *{
@@ -11,3 +13,11 @@
   font-family: $main-font-family;
   color: $main-text-color;
 }
+
+// header
+header {
+  width: 85%;
+  margin: 0 auto;
+}
+
+// main

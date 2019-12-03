@@ -1,9 +1,4 @@
-header {
-  width: 85%;
-  margin: 0 auto;
-}
-
-header nav {
+nav {
   width: 100%;
   padding: 20px 0;
   display: -webkit-box;
@@ -14,7 +9,7 @@ header nav {
           align-items: center;
 }
 
-header nav ul {
+nav ul {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: end;
@@ -23,12 +18,12 @@ header nav ul {
           align-items: center;
 }
 
-header nav ul li {
+nav ul li {
   list-style-type: none;
   margin-left: 30px;
 }
 
-header nav ul li a {
+nav ul li a {
   display: inline-block;
   padding: 8px 15px;
   text-decoration: none;
@@ -37,17 +32,17 @@ header nav ul li a {
   background-color: #30488f;
 }
 
-header nav ul li a img {
+nav ul li a img {
   height: 15px;
   width: 15px;
 }
 
-header hr {
+hr {
   width: 100%;
   border: 0.5px solid;
 }
 
-header #section1 {
+#section1 {
   width: 100%;
   margin: 90px 0;
   display: -webkit-box;
@@ -58,25 +53,25 @@ header #section1 {
           align-items: center;
 }
 
-header #section1 #intro {
+#section1 #intro {
   width: 50%;
   padding-right: 6%;
 }
 
-header #section1 #intro h1 {
+#section1 #intro h1 {
   font-size: 50px;
   font-weight: 600;
   line-height: 70px;
 }
 
-header #section1 #intro p {
+#section1 #intro p {
   margin: 25px 0;
   font-size: 22px;
   line-height: 33px;
   font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
 }
 
-header #section1 #intro div a {
+#section1 #intro div a {
   display: inline-block;
   padding: 8px 15px;
   text-decoration: none;
@@ -88,28 +83,82 @@ header #section1 #intro div a {
   text-decoration: none;
 }
 
-header #section1 #intro div a img {
+#section1 #intro div a img {
   height: 15px;
   width: 15px;
 }
 
-header #section1 #intro div span {
+#section1 #intro div span {
   color: #bdb5af;
   margin: 0 10px;
 }
 
-header #section1 #intro #or-use {
+#section1 #intro #or-use {
   display: inline-block;
   text-decoration: none;
   margin: 20px 0;
 }
 
-header #section1 #img_intro {
+#section1 #img_intro {
   width: 50%;
 }
 
-header #section1 #img_intro img {
+#section1 #img_intro img {
   width: 100%;
+}
+
+#section2 {
+  background-color: #ffe7d2;
+}
+
+#section2 #section2-1,
+#section2 #section2-2 {
+  width: 60%;
+  margin: 0 auto;
+  padding: 70px 0;
+  text-align: center;
+}
+
+#section2 #section2-1 h3,
+#section2 #section2-2 h3 {
+  width: 75%;
+  margin: 0 auto;
+  font-size: 26px;
+}
+
+#section2 #section2-1 .traditional-people,
+#section2 #section2-2 .traditional-people {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  margin: 70px 0;
+}
+
+#section2 #section2-1 .traditional-people div,
+#section2 #section2-2 .traditional-people div {
+  width: 220px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+#section2 #section2-1 .traditional-people div img,
+#section2 #section2-2 .traditional-people div img {
+  height: 120px;
+  margin-bottom: 20px;
+}
+
+#section2 #section2-1 .traditional-people div p,
+#section2 #section2-2 .traditional-people div p {
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+}
+
+#section2 #section2-1 .rabbit,
+#section2 #section2-2 .rabbit {
+  width: 300px;
 }
 
 * {
@@ -118,5 +167,10 @@ header #section1 #img_intro img {
   box-sizing: border-box;
   font-family: "HarmoniaSansProCyr-SemiBd";
   color: #58402c;
+}
+
+header {
+  width: 85%;
+  margin: 0 auto;
 }
 

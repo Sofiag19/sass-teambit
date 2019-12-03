@@ -1,0 +1,34 @@
+#section2 {
+  background-color: $secondary-bg-color;
+  #section2-1,#section2-2 {
+    width: 60%;
+    margin: 0 auto;
+    padding: 70px 0;
+    text-align: center;
+    h3 {
+      width: 75%;
+      margin: 0 auto;
+      font-size: 26px;
+    }
+    .traditional-people {
+      @include flex-beetween;
+      margin: 70px 0;
+      div {
+        width: 220px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 27px;
+        img {
+          height: 120px;
+          margin-bottom: 20px;
+        }
+        p {
+          font-family: $secondary-font-family;
+        }
+      }
+    }
+    .rabbit {
+      width: 300px;
+    }
+  }
+}

@@ -10,6 +10,12 @@
   align-items: center;
 }
 
+@mixin flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 @mixin btn-signup {
   display: inline-block;
   padding: 8px 15px;
