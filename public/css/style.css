@@ -1,5 +1,5 @@
 header {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
 }
 
@@ -30,10 +30,10 @@ header nav ul li {
 
 header nav ul li a {
   display: inline-block;
+  padding: 8px 15px;
   text-decoration: none;
   color: white;
-  padding: 8px 15px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #30488f;
 }
 
@@ -45,6 +45,71 @@ header nav ul li a img {
 header hr {
   width: 100%;
   border: 0.5px solid;
+}
+
+header #section1 {
+  width: 100%;
+  margin: 90px 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+header #section1 #intro {
+  width: 50%;
+  padding-right: 6%;
+}
+
+header #section1 #intro h1 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 70px;
+}
+
+header #section1 #intro p {
+  margin: 25px 0;
+  font-size: 22px;
+  line-height: 33px;
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+}
+
+header #section1 #intro div a {
+  display: inline-block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  background-color: #30488f;
+  font-family: "HarmoniaSansProCyr-Regular", Arial, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+header #section1 #intro div a img {
+  height: 15px;
+  width: 15px;
+}
+
+header #section1 #intro div span {
+  color: #bdb5af;
+  margin: 0 10px;
+}
+
+header #section1 #intro #or-use {
+  display: inline-block;
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+header #section1 #img_intro {
+  width: 50%;
+}
+
+header #section1 #img_intro img {
+  width: 100%;
 }
 
 * {
