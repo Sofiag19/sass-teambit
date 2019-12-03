@@ -11,7 +11,7 @@
       font-size: 26px;
     }
     .traditional-people {
-      @include flex-beetween;
+      @include flex-beetween-start;
       margin: 70px 0;
       div {
         width: 220px;
@@ -29,6 +29,7 @@
     }
     .rabbit {
       width: 300px;
+      margin-bottom: 30px;
     }
   }
 }

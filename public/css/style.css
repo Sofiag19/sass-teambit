@@ -132,8 +132,6 @@ hr {
   display: flex;
   -webkit-box-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-          align-items: center;
   margin: 70px 0;
 }
 
@@ -159,6 +157,7 @@ hr {
 #section2 #section2-1 .rabbit,
 #section2 #section2-2 .rabbit {
   width: 300px;
+  margin-bottom: 30px;
 }
 
 * {
