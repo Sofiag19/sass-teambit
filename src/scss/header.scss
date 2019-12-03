@@ -1,0 +1,32 @@
+header {
+  width: 80%;
+  margin: 0 auto;
+  nav {
+    width: 100%;
+    padding: 20px 0;
+    @include flex-beetween;
+    ul {
+      @include flex-end;
+      li {
+        list-style-type: none;
+        margin-left: 30px;
+        a {
+          display: inline-block;
+          text-decoration: none;
+          color: white;
+          padding: 8px 15px;
+          border-radius: 10px;
+          background-color: rgb(48, 72, 143);
+          img {
+            height: 15px;
+            width: 15px;
+          }
+        }
+      }
+    }
+  }
+  hr {
+    width: 100%;
+    border: 0.5px solid;
+  }
+}
