@@ -18,8 +18,7 @@ header {
           border-radius: 10px;
           background-color: rgb(48, 72, 143);
           img {
-            height: 15px;
-            width: 15px;
+            @import imgoogle;
           }
         }
       }
@@ -28,5 +27,8 @@ header {
   hr {
     width: 100%;
     border: 0.5px solid;
+  }
+  #section1 {
+    width: 100%;
   }
 }
