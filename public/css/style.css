@@ -166,6 +166,66 @@ hr {
   border: 0.5px solid #58402c;
 }
 
+#section3 {
+  width: 100%;
+}
+
+#section3 .section3-1 {
+  width: 100%;
+  margin: 90px 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+#section3 .section3-1 .img-lato {
+  width: 50%;
+}
+
+#section3 .section3-1 .img-lato img {
+  width: 100%;
+}
+
+#section3 .section3-1 .pd-r {
+  padding-right: 18%;
+}
+
+#section3 .section3-1 .pd-l {
+  padding-left: 18%;
+}
+
+#section3 .section3-1 .text-lato {
+  width: 50%;
+  font-size: 26px;
+}
+
+#section3 .section3-1 .text-lato h3 {
+  line-height: 33px;
+}
+
+#section3 .section3-1 .text-lato p {
+  line-height: 33px;
+  margin: 20px 0;
+}
+
+#section3 .section3-1 .text-lato a {
+  color: blue;
+  text-decoration: none;
+}
+
+#section3 .section3-1 .text-lato a i {
+  color: blue;
+}
+
+#section3 .section3-1 .text-lato img {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+}
+
 * {
   margin: 0;
   padding: 0;

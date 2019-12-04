@@ -1,0 +1,43 @@
+#section3 {
+  width: 100%;
+  .section3-1 {
+    width: 100%;
+    margin: 90px 0;
+    @include flex-center;
+    .img-lato {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+    .pd-r {
+      padding-right: 18%;
+    }
+    .pd-l {
+      padding-left: 18%;
+    }
+    .text-lato {
+      width: 50%;
+      font-size: 26px;
+      h3 {
+        line-height: 33px;
+      }
+      p {
+        line-height: 33px;
+        margin: 20px 0;
+      }
+      a {
+        color: blue;
+        text-decoration: none;
+        i {
+          color: blue;
+        }
+      }
+      img {
+        display: block;
+        margin: 20px auto;
+        width: 300px;
+      }
+    }
+  }
+}

@@ -21,6 +21,12 @@
   align-items: center;
 }
 
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @mixin btn-signup {
   display: inline-block;
   padding: 8px 15px;
