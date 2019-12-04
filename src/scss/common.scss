@@ -27,6 +27,11 @@
   align-items: center;
 }
 
+@mixin flex-start {
+  display: flex;
+  align-items: center;
+}
+
 @mixin btn-signup {
   display: inline-block;
   padding: 8px 15px;

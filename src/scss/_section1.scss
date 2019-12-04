@@ -16,7 +16,7 @@
       line-height: 33px;
       font-family: $secondary-font-family;
     }
-    div {
+    .sign-up-with {
       a {
         @include btn-signup;
         font-family: $secondary-font-family;
@@ -32,7 +32,7 @@
         margin: 0 10px;
       }
     }
-    #or-use {
+    .or-use {
       display: inline-block;
       text-decoration: none;
       margin: 20px 0;
