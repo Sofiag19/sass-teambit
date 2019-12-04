@@ -1,3 +1,41 @@
 footer {
-  
+  padding: 80px 80px 20px;
+  @include flex-simple;
+  #footer-left {
+    width: 35%;
+    margin-right: 5%;
+    @include flex-simple;
+    img {
+      width: 80px;
+      align-self: flex-start;
+      margin-right: 20px;
+    }
+    p {
+      font-size: 24px;
+      line-height: 30px;
+      a {
+        text-decoration: none;
+        color: #30488F;
+      }
+    }
+  }
+  #footer-right {
+    width: 60%;
+    @include flex-simple;
+    div {
+      margin-left: 2%;
+      width: 18%;
+      h4{
+        margin-bottom: 20px;
+        font-size: 18px;
+      }
+      ul {
+        list-style-type: none;
+        line-height: 34px;
+        a{
+          text-decoration: none;
+        }
+      }
+    }
+  }
 }
