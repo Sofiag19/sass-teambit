@@ -7,7 +7,7 @@
 }
 
 #container-nav nav {
-  padding: 20px 0;
+  padding: 15px 0;
   width: 85%;
   margin: 0 7.5%;
   border-bottom: 0.5px solid;
@@ -355,6 +355,10 @@
   width: 15px;
 }
 
+#section4 .sign-up-with a:hover {
+  background-color: #233569;
+}
+
 #section4 .sign-up-with span {
   color: #bdb5af;
   margin: 0 10px;
@@ -364,6 +368,16 @@
   display: inline-block;
   text-decoration: none;
   margin: 20px 0;
+}
+
+#section4 .or-use:hover {
+  color: #30488F;
+  cursor: pointer;
+}
+
+#section4 .or-use:hover i {
+  color: #30488F;
+  cursor: pointer;
 }
 
 footer {
@@ -395,6 +409,10 @@ footer #footer-left p a {
   color: #30488F;
 }
 
+footer #footer-left p a:hover {
+  text-decoration: underline;
+}
+
 footer #footer-right {
   width: 60%;
   display: -webkit-box;
@@ -416,8 +434,23 @@ footer #footer-right div ul {
   line-height: 34px;
 }
 
+footer #footer-right div ul li:hover {
+  color: #30488F;
+  cursor: pointer;
+}
+
 footer #footer-right div ul a {
   text-decoration: none;
+}
+
+footer #footer-right div ul a:hover {
+  color: #30488F;
+  cursor: pointer;
+}
+
+footer #footer-right div ul a:hover i {
+  color: #30488F;
+  cursor: pointer;
 }
 
 * {

@@ -16,6 +16,9 @@ footer {
       a {
         text-decoration: none;
         color: #30488F;
+        &:hover {
+          text-decoration: underline;
+        }
       }
     }
   }
@@ -32,8 +35,19 @@ footer {
       ul {
         list-style-type: none;
         line-height: 34px;
+        li{
+          &:hover {
+            @include event-hover;
+          }
+        }
         a{
           text-decoration: none;
+          &:hover {
+            @include event-hover;
+            i {
+              @include event-hover;
+            }
+          }
         }
       }
     }
