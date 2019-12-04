@@ -44,3 +44,17 @@
   border-radius: 5px;
   background-color: rgb(48, 72, 143);
 }
+
+@mixin btn-pre-signup {
+  display: inline-block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: rgb(48, 72, 143);
+  border-radius: 5px;
+  border: 1px solid rgb(48, 72, 143);
+}
+
+@mixin event-hover {
+  color: $main-color-hover;
+  cursor: pointer;
+}

@@ -1,6 +1,16 @@
-nav {
+#container-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
+  background-color: white;
+}
+
+#container-nav nav {
   padding: 20px 0;
+  width: 85%;
+  margin: 0 7.5%;
+  border-bottom: 0.5px solid;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -9,7 +19,7 @@ nav {
           align-items: center;
 }
 
-nav ul {
+#container-nav nav ul {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: end;
@@ -18,12 +28,21 @@ nav ul {
           align-items: center;
 }
 
-nav ul li {
+#container-nav nav ul li {
   list-style-type: none;
   margin-left: 30px;
 }
 
-nav ul li a {
+#container-nav nav ul li a {
+  display: inline-block;
+  padding: 8px 15px;
+  text-decoration: none;
+  color: #30488f;
+  border-radius: 5px;
+  border: 1px solid #30488f;
+}
+
+#container-nav nav ul li a:hover {
   display: inline-block;
   padding: 8px 15px;
   text-decoration: none;
@@ -32,14 +51,14 @@ nav ul li a {
   background-color: #30488f;
 }
 
-nav ul li a img {
+#container-nav nav ul li a img {
   height: 15px;
   width: 15px;
 }
 
-hr {
-  width: 100%;
-  border: 0.5px solid;
+#container-nav nav ul li:hover {
+  color: #30488F;
+  cursor: pointer;
 }
 
 #section1 {
@@ -88,6 +107,10 @@ hr {
   width: 15px;
 }
 
+#section1 #intro .sign-up-with a:hover {
+  background-color: #233569;
+}
+
 #section1 #intro .sign-up-with span {
   color: #bdb5af;
   margin: 0 10px;
@@ -97,6 +120,16 @@ hr {
   display: inline-block;
   text-decoration: none;
   margin: 20px 0;
+}
+
+#section1 #intro .or-use:hover {
+  color: #30488F;
+  cursor: pointer;
+}
+
+#section1 #intro .or-use:hover i {
+  color: #30488F;
+  cursor: pointer;
 }
 
 #section1 #img_intro {
@@ -173,6 +206,7 @@ hr {
 #section3 .section3-1 {
   width: 100%;
   margin: 90px 0;
+  overflow-x: hidden;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -182,23 +216,32 @@ hr {
 }
 
 #section3 .section3-1 .img-lato {
-  width: 50%;
+  width: 60%;
 }
 
 #section3 .section3-1 .img-lato img {
-  width: 100%;
+  width: 110%;
+}
+
+#section3 .section3-1 .marg-sx {
+  margin-left: -15%;
+}
+
+#section3 .section3-1 .marg-dx {
+  margin-right: -15%;
 }
 
 #section3 .section3-1 .pd-r {
-  padding-right: 18%;
+  padding-right: 12%;
+  padding-left: 8%;
 }
 
 #section3 .section3-1 .pd-l {
-  padding-left: 18%;
+  padding-left: 16%;
 }
 
 #section3 .section3-1 .text-lato {
-  width: 50%;
+  width: 48%;
   font-size: 26px;
 }
 
@@ -212,12 +255,16 @@ hr {
 }
 
 #section3 .section3-1 .text-lato a {
-  color: blue;
+  color: #30488F;
   text-decoration: none;
 }
 
 #section3 .section3-1 .text-lato a i {
-  color: blue;
+  color: #30488F;
+}
+
+#section3 .section3-1 .text-lato a:hover {
+  cursor: pointer;
 }
 
 #section3 .section3-1 .text-lato img {

@@ -26,6 +26,9 @@
           height: 15px;
           width: 15px;
         }
+        &:hover {
+          background-color: #233569;
+        }
       }
       span {
         color: #bdb5af;
@@ -36,6 +39,12 @@
       display: inline-block;
       text-decoration: none;
       margin: 20px 0;
+      &:hover {
+        @include event-hover;
+        i {
+          @include event-hover;
+        }
+      }
     }
   }
   #img_intro {
