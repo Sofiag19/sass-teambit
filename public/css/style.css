@@ -3,6 +3,7 @@
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10;
   background-color: white;
 }
 
@@ -287,6 +288,7 @@
 }
 
 #section4 #container-section4 {
+  position: relative;
   text-align: left;
   margin: 0 auto 20px;
   border: 1px solid #bdb5af;
@@ -294,6 +296,13 @@
   width: 600px;
   background-color: white;
   padding: 20px;
+}
+
+#section4 #container-section4 #virgolette {
+  width: 40px;
+  position: absolute;
+  top: -22px;
+  left: 0;
 }
 
 #section4 #container-section4 p {

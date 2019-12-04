@@ -9,6 +9,7 @@
     margin: 50px auto;
   }
   #container-section4 {
+    position: relative;
     text-align: left;
     margin: 0 auto 20px;
     border: 1px solid #bdb5af;
@@ -16,6 +17,12 @@
     width: 600px;
     background-color: $main-bg-color;
     padding: 20px;
+    #virgolette {
+      width: 40px;
+      position: absolute;
+      top: -22px;
+      left: 0;
+    }
     p {
       font-size: 16px;
       line-height: 24px;
